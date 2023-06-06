@@ -6,6 +6,7 @@ export const MyButton = () => {
 
   function handleClick() {
     setCount(count + 1);
+    console.log(count);
   }
   return <button onClick={handleClick}>Cliqueame {count} !</button>;
 };
